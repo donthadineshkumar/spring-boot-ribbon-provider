@@ -39,4 +39,9 @@ public class SpringBootRibbonProviderApplication {
 		return "reaching...";
 	}
 
+	@GetMapping("/recommended")
+	public String toRead(){
+		return "Spring in action(Manning), Spring Boot(Packt), Selenium(Tata)";
+	}
+
 }
